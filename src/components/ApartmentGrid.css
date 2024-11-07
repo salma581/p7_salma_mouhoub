@@ -8,3 +8,11 @@
     padding: 1rem;
     justify-content: space-between;
 }
+
+@media screen and (width <= 766px){
+    .grid{
+        justify-content: center;
+       background-color: white;
+       padding: 0;
+    }
+}
